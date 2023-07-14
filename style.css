@@ -1,0 +1,265 @@
+html,
+body {
+  background-color: black;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.frame-pictures {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.grid1-frame-picture {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* height: 364px; */
+}
+
+.image {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.grid2-frame-picture {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.grid3-frame-picture {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.box {
+  width: 35%;
+  background-color: #f4f4f4;
+}
+
+.content-atas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+
+.judul {
+  width: 114px;
+  height: 32px;
+  color: #3e333e;
+  font-family: arial;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+.ringkasan {
+  font-family: arial;
+  font-weight: 400;
+  width: 250px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 95px;
+  color: #3e334e;
+}
+
+.frame-login {
+  top: 252px;
+  margin-left: 80px;
+  padding: 32px 32px 48px 32px;
+  border-radius: 16px;
+  /* gap: 48px; */
+  margin-left: 60px;
+}
+
+.login {
+  /* width: 416px;
+  height: 32px; */
+  font-size: 32px;
+  font-family: arial;
+  color: #3e334e;
+  font-weight: 600;
+}
+
+.email {
+  font-family: arial;
+  font-size: 16px;
+  color: #3e334e;
+  margin-top: 30px;
+}
+
+.input-email {
+  border-radius: 8px;
+  border: 1px;
+  padding: 16px;
+  gap: 8px;
+  color: #afa2c3;
+  color: #ffffff 0%;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.password {
+  font-family: arial;
+  font-size: 16px;
+  color: #3e334e;
+  margin-top: 30px;
+}
+
+.input-password {
+  border-radius: 8px;
+  border: 1px;
+  padding: 16px;
+  gap: 8px;
+  color: #afa2c3;
+  color: #ffffff 0%;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.remember {
+  margin-top: 15px;
+}
+
+.forgot-password {
+  margin-left: 67px;
+}
+
+.button {
+  margin-top: 30px;
+  width: 130px;
+  height: 48px;
+  border-radius: 8px;
+  /* padding: 16px; */
+  background: #3e334e;
+}
+
+.button-login {
+  color: white;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button-1 {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 130px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.button-sign {
+  font-family: arial;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.or {
+  font-size: 14px;
+  color: #3e334e;
+  margin-left: 200px;
+}
+
+.button-footer {
+  margin-left: 93px;
+  margin-top: 20px;
+}
+
+.button-footer-1 {
+  width: 90px;
+  height: 38px;
+  margin-right: 5px;
+}
+
+.tampilan-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .container-fluid {
+    display: none;
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tampilan-mobile {
+    display: flex;
+    background-position: center;
+    /* background-size: 100% auto; */
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+
+  .frame-pictures {
+    display: none;
+  }
+
+  .box {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    margin-left: 80px;
+  }
+
+  .judul {
+    margin-left: 15px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .ringkasan {
+    margin-left: 50px;
+    text-align: center;
+    width: 250px;
+  }
+
+  .frame-login {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .or {
+    margin-left: 130px;
+    text-align: center;
+  }
+
+  .button-footer {
+    margin-left: 0;
+    text-align: center;
+  }
+}
